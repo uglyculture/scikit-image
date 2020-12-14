@@ -156,7 +156,7 @@ def phase_cross_correlation(reference_image, moving_image, *,
         maximum translation, while a higher `overlap_ratio` leads to greater
         robustness against spurious matches due to small overlap between
         masked images. Used only if one of ``reference_mask`` or
-        ``moving_mask`` is None.
+        ``moving_mask`` is not None.
 
     Returns
     -------
